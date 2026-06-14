@@ -45,10 +45,3 @@ resultado:
 wall.log
 93
 ## Tarea 7
-
-Comando:
-```bash
-grep -Ec '^[0-9]{4}-[0-9]{2}-[0-9]{2} 0[0-2]:[0-9]{2}:[0-9]{2} ' firewall.log
-resultado:
-wall.log
-13138
