@@ -16,3 +16,11 @@ Comando:
 ```bash
 grep -Ec '^[^ ]+ [^ ]+ [^ ]+ [^ ]+ 11\.' firewall.log
 resultado:33217
+
+## Tarea 4
+
+Comando:
+```bash
+grep -Ec ' [0-9]{7}$' firewall.log
+
+resultado:2343
