@@ -9,4 +9,10 @@ Resultado:1000
 Comando:
 ```bash
 grep -Ec '^[^ ]+ [^ ]+ (DROP|REJECT) ' firewall.log
-Resultado: 60156d
+Resultado: 60156
+## Tarea 3
+
+Comando:
+```bash
+grep -Ec '^[^ ]+ [^ ]+ [^ ]+ [^ ]+ 11\.' firewall.log
+resultado:33217
